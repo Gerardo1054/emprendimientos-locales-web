@@ -1,125 +1,95 @@
-# Emprendimientos Locales Web
-
-## Descripción general del proyecto
-
-Emprendimientos Locales Web es un proyecto colaborativo cuyo objetivo es desarrollar un sitio web informativo que ayude a pequeños negocios locales a tener presencia digital. El proyecto se realiza utilizando Git y GitHub como herramientas principales para el trabajo en equipo, control de versiones y documentación.
-
----
+# Emprendimientos Locales
 
 ## Problemática
 
-Actualmente, muchos pequeños emprendimientos locales no cuentan con presencia digital. Esto provoca que sus productos o servicios no sean conocidos por un público más amplio, limitando su crecimiento, visibilidad y oportunidades de contacto con nuevos clientes. La falta de una plataforma digital accesible es una barrera importante para estos negocios.
-
----
+Muchos emprendimientos locales no cuentan con presencia digital, lo que limita su visibilidad,
+alcance a nuevos clientes y crecimiento. La falta de plataformas sencillas provoca que estos
+negocios dependan únicamente del boca a boca.
 
 ## Objetivo
 
-Desarrollar un sitio web que permita dar visibilidad a los emprendimientos locales, mostrando información básica como nombre del negocio, tipo de servicio, contacto y ubicación, además de ofrecer un formulario para registrar nuevos emprendimientos. El sitio busca servir como un punto de referencia digital para la comunidad.
-
----
-
-## Solución propuesta
-
-La solución consiste en un sitio web desarrollado únicamente con HTML (sin backend ni base de datos), que incluye:
-
-- Una página principal que presenta el propósito del sitio.
-- Una sección con la lista de negocios registrados.
-- Una sección de emprendimiento destacado.
-- Un formulario para el registro de nuevos negocios (solo demostrativo).
-- Una sección de opiniones y calificaciones.
-- Un footer informativo común en todo el sitio.
+Desarrollar un sitio web informativo que permita mostrar emprendimientos locales, su información
+de contacto y ubicación, además de ofrecer un formulario para registrar nuevos negocios y una
+sección de opiniones que ayude a generar confianza en los clientes.
 
 ---
 
 ## Roles del equipo
 
-El proyecto se desarrolló de manera colaborativa, asignando roles específicos a cada integrante:
+- **Project Manager:** Claudio Gerardo De la Rosa Guzmán  
+  Responsable de la creación del repositorio, gestión de issues, revisión de Pull Requests,
+  resolución de conflictos y control de versiones.
 
-- **Integrante 1 – Project Manager**
-  - Creación del repositorio en GitHub.
-  - Gestión y asignación de issues.
-  - Supervisión del flujo de trabajo.
-  - Revisión y aprobación de Pull Requests.
-  - Resolución y documentación del conflicto obligatorio.
+- **Desarrollador Frontend 1:** Luis Daniel Rivera Gonzalez  
+  Encargado de las secciones principales del sitio y la página de lista de negocios.
 
-- **Integrante 2 – Desarrollador Frontend 1**
-  - Desarrollo de las secciones principales del sitio.
-  - Creación de la página de lista de negocios.
-  - Creación de la página de emprendimiento destacado.
-  - Manejo de la navegación interna.
+- **Desarrollador Frontend 2:** Camila Castañeda Villegas  
+  Responsable del formulario de registro de emprendimientos y secciones secundarias.
 
-- **Integrante 3 – Desarrollador Frontend 2**
-  - Desarrollo del formulario de registro de emprendimientos.
-  - Implementación de validaciones HTML mediante atributos `required` y `pattern`.
-  - Apoyo en la modificación de secciones secundarias.
-
-- **Integrante 4 – Desarrollador Frontend 3**
-  - Desarrollo de la página de opiniones y calificaciones.
-  - Implementación del footer en todas las páginas del sitio.
-  - Ajustes finales de contenido visual.
+- **Desarrollador Frontend 3:** Emiliano Guzmán García  
+  Encargado del footer del sitio y de la página de opiniones y calificaciones.
 
 ---
 
-## Organización del trabajo en GitHub
+## Estructura del sitio
 
-El proyecto se gestionó utilizando GitHub siguiendo un flujo de trabajo colaborativo:
+El sitio web está compuesto por las siguientes páginas:
 
-- Se creó un repositorio central.
-- Cada integrante trabajó en una rama independiente por funcionalidad.
-- Los cambios se integraron mediante Pull Requests.
-- El Project Manager revisó y realizó los merges a la rama `main`.
-- Se utilizaron issues para planificar y asignar tareas.
-
-### Issues creados
-
-- Crear estructura base del proyecto.
-- Agregar sección principal.
-- Agregar formulario de registro.
-- Agregar footer.
-- Resolver conflicto obligatorio.
-
-Cada issue fue asignado a un integrante correspondiente.
+- `index.html` – Página principal y presentación del proyecto  
+- `lista.html` – Lista de emprendimientos registrados  
+- `registro.html` – Formulario para registrar nuevos emprendimientos  
+- `opiniones.html` – Opiniones y calificaciones de los negocios  
+- `css/estilos.css` – Hoja de estilos compartida  
+- `img/` – Carpeta de imágenes del proyecto  
 
 ---
 
-## Flujo de trabajo utilizado
+## Flujo de trabajo
 
-1. Clonación del repositorio por cada integrante.
-2. Creación de ramas por funcionalidad.
-3. Desarrollo de las tareas asignadas.
-4. Creación de commits claros y descriptivos.
-5. Envío de cambios mediante `git push`.
-6. Creación de Pull Requests.
-7. Revisión y merge por parte del Project Manager.
+El desarrollo se realizó de forma colaborativa utilizando Git y GitHub:
 
-Ningún integrante trabajó directamente sobre la rama `main`.
+- Cada integrante trabajó en una rama independiente
+- Se utilizaron Issues para planificar tareas
+- Los cambios se integraron mediante Pull Requests
+- El Project Manager revisó y aprobó los merges
+- No se trabajó directamente sobre la rama `main`
 
 ---
 
-## Conflicto
+## Conflicto obligatorio
 
-### Qué lo causó
+### ¿Qué lo causó?
 
-El conflicto se generó de manera intencional cuando dos integrantes modificaron el mismo párrafo del archivo `index.html` en ramas diferentes, como parte del ejercicio obligatorio para el manejo de conflictos en Git.
+Dos integrantes modificaron el mismo párrafo de la sección de presentación en el archivo
+`index.html` desde ramas diferentes, lo que provocó un conflicto al intentar hacer el merge.
 
-### Cómo lo resolvimos
+### ¿Cómo lo resolvimos?
 
-El Project Manager identificó el conflicto durante el intento de merge. Se revisaron ambas versiones del texto y se creó una versión combinada que representara mejor el objetivo del proyecto. Posteriormente, se eliminaron las marcas de conflicto y se realizó el commit de resolución.
+El Project Manager revisó ambas versiones del texto, combinó la información relevante de cada una
+y resolvió el conflicto manualmente antes de completar el merge.
 
-### Qué aprendimos
+### ¿Qué aprendimos?
 
-Aprendimos a identificar conflictos reales en Git, a analizarlos de forma colaborativa y a resolverlos correctamente, fortaleciendo el trabajo en equipo y el uso adecuado del control de versiones.
+Aprendimos la importancia de la comunicación en el trabajo colaborativo, así como a identificar,
+resolver y documentar conflictos de manera correcta utilizando Git y GitHub.
 
 ---
 
 ## Tecnologías utilizadas
 
 - HTML5
+- CSS3
 - Git
 - GitHub
 
 ---
 
-## Conclusión
+## Estado del proyecto
 
-Este proyecto permitió aplicar de forma práctica el trabajo colaborativo con GitHub, el uso de ramas, Pull Requests, issues y la resolución de conflictos, además de desarrollar un sitio web funcional que atiende una problemática real de la comunidad.
+Proyecto académico finalizado cumpliendo con todos los requisitos establecidos:
+- Uso de ramas
+- Pull Requests
+- Issues
+- Conflicto documentado
+- Trabajo colaborativo real
+vo con GitHub, el uso de ramas, Pull Requests, issues y la resolución de conflictos, además de desarrollar un sitio web funcional que atiende una problemática real de la comunidad.
