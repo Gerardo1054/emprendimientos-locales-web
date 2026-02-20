@@ -73,6 +73,10 @@ y resolvió el conflicto manualmente antes de completar el merge.
 Aprendimos la importancia de la comunicación en el trabajo colaborativo, así como a identificar,
 resolver y documentar conflictos de manera correcta utilizando Git y GitHub.
 
+## Evidencia del conflicto
+
+![Conflicto en GitHub](img/conflicto.png)
+
 ---
 
 ## Tecnologías utilizadas
